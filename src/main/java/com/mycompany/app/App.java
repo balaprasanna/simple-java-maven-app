@@ -9,7 +9,6 @@ public class App
     private final String message = "Hello World!";
 
     public App()  { }
-    public App(String name) { this.message = name;  }
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
